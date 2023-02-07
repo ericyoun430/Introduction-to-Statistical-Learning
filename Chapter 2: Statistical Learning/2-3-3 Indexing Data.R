@@ -8,3 +8,12 @@ print(A[2,3])
 
 #Get slice of the data 
 print(A[c(1,3), c(2,4)])
+print(A[1:2,])
+print(A[,1:2])
+
+#Negative sign gets all values other than that
+print(A[-1,])
+
+#Get dimensions of the matrix
+print(dim(A))
+
